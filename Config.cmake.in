@@ -1,0 +1,6 @@
+@PACKAGE_INIT@
+
+include("${CMAKE_CURRENT_LIST_DIR}/IMPLOT_Targets.cmake")
+check_required_components("@PROJECT_NAME@")
+
+find_package(ImGui CONFIG REQUIRED)
