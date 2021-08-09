@@ -11,7 +11,7 @@ project(implot LANGUAGES CXX VERSION ${IMPLOT_VERSION})
 include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
 conan_basic_setup()
 
-find_package(ImGui CONFIG REQUIRED)
+find_package(IMGUI CONFIG REQUIRED)
 
 set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)
 
